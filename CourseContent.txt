@@ -1,0 +1,43 @@
+ELK Topics:
+===========
+Get familiar with software and types
+Programming lang vs Scripting lang
+Java core basics - features
+SQL vs NOSQL
+XML vs JSON
+RESTFUL Webservices - overview
+Introduction to ELK stack
+Elasticsearch overview
+Architecture of Elasticsearch
+Installing ELK stack on different flavours
+Index Mappings & Settings
+Analysis & Analyzers
+ES Searching
+ES Aggregations
+Introduction to Logstash
+Logstash overview
+Logstash Architecture
+Logstash Filters
+Logstash in action
+Introduction to Beats
+Beats overview
+Beats in action
+Introduction to Kibana
+Kibana overview
+Visualizations & Dashboards
+Customerizing Kibana
+Introduction to XPACK
+Understanding XPACK features
+XPACK in action
+
+Misc. Topics:
+=============
+Clustering ES
+Realtime ELK setup
+Introduction to SearchGuard
+SearchGuard in action
+ES plugins
+ES using java
+Snapshots & Restoration
+Upgrading ELK Stack
+

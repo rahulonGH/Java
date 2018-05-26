@@ -1,0 +1,132 @@
+SOFTWARE:
+=========
+- Collection of programs meant for performing specific operations
+- Classification:
+    - System Software
+        - Development of device drivers
+        - Development of language compilers, interpretors etc
+        - Development of RTOS
+        - Ex: C, 8086 etc
+    - Application Software
+        - To develop projects or Softwares for org.
+        - Two types of technologies
+            - Front End technologies
+                - Platform Dependent
+                - Platform Independent
+            - Back End technologies
+                - FS
+                - RDBMS
+    * Standalone Apps vs Distributed Apps
+    - Internet Software
+
+
+Programing languages:
+====================
+- Compilation + Interpretation
+- Java, .Net etc
+
+Scripting languages:
+- Interpretation
+- JS, Python etc
+
+
+Java:
+=====
+- Compilation + Interpretation phase
+- .java -> .class (byte) -> JVM -> JIT -> results
+- What makes Java Platform Independent?
+
+
+SQL VS NOSQL:
+============
+- File Storage system challenges
+- Introduction to RDBMS
+- DB:
+    - a structured set of data held in a computer, especially one that is accessible in various ways.
+
+- SQL DB
+    - Traditional RDBMS
+    - Rows , Columns
+    - Fixed Schema
+    - Oracle, MySQL, SQL Server etc
+- NOSQL DB
+    - Documental Storage
+    - Json data
+    - Flexible  Schema
+    * What is a JSON?
+        - JSON (JavaScript Object Notation) is a lightweight format that is used for data interchanging. 
+        - It is based on a subset of JavaScript language (the way objects are built in JavaScript).
+    - MongoDB, CouchDB, Elasticsearch etc
+
+
+XML vs JSON:
+============
+- XML stands for eXtensible Markup Language. XML was designed to store and transport data. XML was designed to be both human- and machine-readable.
+- JSON is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.
+- JSON is Like XML Because
+    - Both JSON and XML are "self describing" (human readable)
+    - Both JSON and XML are hierarchical (values within values)
+    - Both JSON and XML can be parsed and used by lots of programming languages  
+    - Both JSON and XML can be fetched with an XMLHttpRequest
+- JSON is Unlike XML Because
+    - JSON doesn't use end tag
+    - JSON is shorter
+    - JSON is quicker to read and write
+    - JSON can use arrays
+- Using XML : 
+    - Fetch an XML document 
+    - Use the XML DOM to loop through the document
+    - Extract values and store in variables
+- Using JSON : 
+    - Fetch a JSON string
+    - JSON.Parse the JSON string
+
+WebServices:
+============
+- Web service is a standardized medium to propagate communication between the client and server applications on the World Wide Web.
+- Web services provide a common platform that allows multiple applications built on various programming languages to have the ability to communicate with each other.
+- Types:
+    - SOAP Simple Object Access Protocol.
+    - REST REpresentational State Transfer.
+
+
+ELK Introduction:
+=================
+- public cloud security tools and log analytics platforms
+- ELK Stack is a complete log analysis solution which helps in deep searching, analyzing and visualizing the log generated from different machines.
+
+What is ELK?
+============
+- Elasticsearch is a NoSQL database which is based on Lucene search engine and is built with RESTful APIs. It is a highly flexible and distributed search and analytics engine.
+- Logstash is the data collection pipeline tool. It the first component of ELK Stack which collects data inputs and feeds it to the Elasticsearch. It collects various types of data 
+from different sources, all at once and makes it available immediately for further use.
+- Kibana is a data visualization tool. It is used for visualizing the Elasticsearch documents and helps the developers to have an immediate insight into it.
+
+ELK Stack Architecture:
+======================
+
+LogFiles <- Beats -> Logstash -> Elasticsearch <- Kibana
+
+
+Elasticsearch vs Database:
+==========================
+Elasticsearch   Database
+Index           Database
+Type            Table
+Document        Row
+Field           Column
+
+
+- When you work with Elasticsearch there are three major steps which you need to follow:
+    - Indexing
+        - process of adding the data Elasticsearch
+    - Mapping
+        - process of setting the schema of the index
+    - Searching
+        - search query with specific index and type 
+
+
+**
+Elasticsearch:
+==============
+
