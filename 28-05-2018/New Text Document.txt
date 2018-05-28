@@ -1,0 +1,84 @@
+
+bytecode
+
+JVM | JIT | JRE | JDK
+
+JVM: Java virtual machine
+
+
+english ->  byte code <- binary code (010101)
+.java => compilation => byte code => jvm => binary code => 
+
+.java
+.class
+
+windows 32 JVM  => binary code => OS
+linux 64 JVM => binary code =>  OS
+
+Physical machine => logical partition => 
+
+bytecode => 
+
+boosting of jvm functionality
+
+JRE, JDK
+==========
+java developmnt kit
+java run enviroment => jre contains jvm => jvm execute bytecode => jvm contains JIT ( JIT is a part of jvm)
+developmnt tools => JDK
+
+
+
+
+POP , OOP
+=========
+c, java
+
+int empid;
+int stdid;
+main()
+{
+    sum();
+    sub();
+
+}
+void sum()
+{
+    int x;
+    c = a+b;
+    printf(a);
+}
+
+printf(x);
+
+
+top - down approach 
+
+class
+objects
+with resp objects will perform operta
+
+accessing mode, => private, public, protected (OOPL), 
+execution modde, => parallel execution will exists in OOPL (multithreading) but not in POPL
+data control, => single entity, 
+security =>
+
+OOP,POP
+bottom-up, top-down
+object level data control, function level data control
+
+
+how Java is platform independent
+java slogan:  WORA => write once run anywhere
+JVM JIT JRE JDK
+java -> categories JSE JEE JME
+JSE => 
+JAVA history
+POPL vs OOPL
+
+
+Language fundamentals => 
+execution  of java code => 
+skeletion of java codoe
+OOPS
+

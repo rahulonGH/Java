@@ -11,13 +11,13 @@ SOFTWARE:
         - To develop projects or Softwares for org.
         - Two types of technologies
             - Front End technologies
-                - Platform Dependent
-                - Platform Independent
+                - Platform Dependent - .Net,C
+                - Platform Independent - Java
             - Back End technologies
                 - FS
                 - RDBMS
     * Standalone Apps vs Distributed Apps
-    - Internet Software
+    - Internet Software / Web applications
 
 
 Programing languages:
@@ -89,44 +89,4 @@ WebServices:
     - SOAP Simple Object Access Protocol.
     - REST REpresentational State Transfer.
 
-
-ELK Introduction:
-=================
-- public cloud security tools and log analytics platforms
-- ELK Stack is a complete log analysis solution which helps in deep searching, analyzing and visualizing the log generated from different machines.
-
-What is ELK?
-============
-- Elasticsearch is a NoSQL database which is based on Lucene search engine and is built with RESTful APIs. It is a highly flexible and distributed search and analytics engine.
-- Logstash is the data collection pipeline tool. It the first component of ELK Stack which collects data inputs and feeds it to the Elasticsearch. It collects various types of data 
-from different sources, all at once and makes it available immediately for further use.
-- Kibana is a data visualization tool. It is used for visualizing the Elasticsearch documents and helps the developers to have an immediate insight into it.
-
-ELK Stack Architecture:
-======================
-
-LogFiles <- Beats -> Logstash -> Elasticsearch <- Kibana
-
-
-Elasticsearch vs Database:
-==========================
-Elasticsearch   Database
-Index           Database
-Type            Table
-Document        Row
-Field           Column
-
-
-- When you work with Elasticsearch there are three major steps which you need to follow:
-    - Indexing
-        - process of adding the data Elasticsearch
-    - Mapping
-        - process of setting the schema of the index
-    - Searching
-        - search query with specific index and type 
-
-
-**
-Elasticsearch:
-==============
 
