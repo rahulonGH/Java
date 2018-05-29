@@ -1,0 +1,70 @@
+Java lang fundamentals:
+=======================
+
+class XXX {
+    public static void main(String[] args) {    
+        
+    }
+}
+
+variable in java:
+=================
+variable is a name given to a memory location.
+types of variable:
+
+1. local variable => variable inside a method/block
+2. instance variable => these are non static variables and declared in a class ouotside of any method
+3. static variable => these are static variables and declared in a class ouotside of any method
+
+
+class test
+{
+    test() {
+     int a;
+
+    }
+    void sum()
+    {
+        int a;
+    }
+}
+
+
+Data types:
+===========
+java has 2 categories of datatypes:
+1. primitive data types => numbers, character
+    - these store single values
+
+capacity/range = 2^(no of bits) - 1
+2^8 -1 
+
+    in java : 
+    boolean => true or false
+    byte => 8 bits of data => 1 byte => 0 to 127
+    char => 16 bits of data  => 2 bytes => 2^16 -1 
+    short => 16 bits  => 0 to 2^16 - 1
+    int => 32 bits of data 
+    long => 64 bits of data
+    float => 32 bits of data , after decimal 7 digits  (precision value = 7)
+    double => 64 bits of data , after decimal 14 digits (precision value = 14)
+
+    if(1.4123457 == 1.41234567f) {
+        
+    } else {
+
+    }
+
+    ** c,cpp,... => char => 1 byte of data
+    only in java char will take 2 bytes of data ?
+    in java we use UNICODE values in other progmng langs they use ASCII  values.
+    ASCII values support only english
+    UNICODE values supports any language
+
+if excess of range of data type is assigned, we will get "incompatible types" error while compilation.
+
+
+*** write a program with class name as datatypes_example with local variables of sum method to print int, byte, char, long, float, double
+
+
+2. Object data types => Program created types
